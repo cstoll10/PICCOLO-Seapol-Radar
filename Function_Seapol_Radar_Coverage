@@ -13,6 +13,7 @@ def seapol_coverage(N1, N2, N3, N4):
     az = np.arange(0, 361, 1)
 
     # Define hours of sampling in different directions
+    # Hours calculated from Dr. Wing's Script 
     HoursN = 422
     HoursS = 418
     HoursW = 134
