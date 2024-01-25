@@ -7,6 +7,9 @@ def seapol_coverage(N1, N2, N3, N4):
 
     Parameters:
     - N1, N2, N3, N4: Azimuth angle ranges for North direction.
+    - Input values for ranges that are wanted to be seen by the radar, from smallest to greatest value
+    - example (0,90,225,360), in this example 0-90 degrees will be seen in the north direction 
+    - and 225-360 will be seen in the north direction
     """
 
     # Define azimuth angles from 0 to 360 degrees with a step of 1 degree
